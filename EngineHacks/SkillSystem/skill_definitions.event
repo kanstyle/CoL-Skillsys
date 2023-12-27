@@ -626,8 +626,8 @@
 //By Leonarth
 #define DevilsWhimID 183
 
-//Down With Arch: If the hit lands, instantly kill the enemy unit. (Only if name starts with "Arch")
-#define DownWithArchID 255
+//Sword Range Up (over Down With Arch): +1 range to all swords.
+#define SwordRangeUpID 255
 
 //Dragon Fang: 1.5x damage. (Skill% activation)
 //By Sme

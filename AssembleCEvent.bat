@@ -7,7 +7,7 @@ SET ref=C:\Users\user\Desktop\GBA Nightmare Modules\FE-CLib-master\reference\FE8
 SET lyn="C:\devkitPro\lyn.exe"
 
 @rem compile into an object file
-%gcc% -mcpu=arm7tdmi -mabi=aapcs -mthumb -mthumb-interwork -fomit-frame-pointer -ffast-math -fno-toplevel-reorder -mlong-calls -I "U:\Projects\FE-CLib\include" -O2 -c %1 -o "%~n1.o"
+%gcc% -mcpu=arm7tdmi -mabi=aapcs -mthumb -mthumb-interwork -fomit-frame-pointer -ffast-math -fno-toplevel-reorder -mlong-calls -I "C:\Users\user\Desktop\GBA Nightmare Modules\FE-CLib-master\include" -O2 -c %1 -o "%~n1.o"
 
 @rem check for a library s file(called %~n1.lib), and assemble it if needed
 if exist "%ref%.s" (
