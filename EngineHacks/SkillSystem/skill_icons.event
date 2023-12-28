@@ -374,8 +374,8 @@ ORG SkillIcon(SmiteID)
 ORG SkillIcon(BaneID)
 #incbin "SkillIcons/Bane.dmp"
 
-ORG SkillIcon(DownWithArchID)
-#incbin "SkillIcons/DownWithArch.dmp"
+ORG SkillIcon(SwordRangeUpID)
+#incbin "SkillIcons/SwordRangeUp.dmp"
 
 ORG SkillIcon(UpWithArchID)
 #incbin "SkillIcons/UpWithArch.dmp"

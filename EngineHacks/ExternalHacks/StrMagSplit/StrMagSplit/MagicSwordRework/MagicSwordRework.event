@@ -21,9 +21,14 @@
 
 	MagicSwordList:
 	//MagicSwordEntry(0x09,WeaponTypeAnima,False,HitDef,HitRes)
-	MagicSwordEntry(WindSword,WeaponTypeAnima,False,HitRes,HitRes)
-	MagicSwordEntry(LightBrand,WeaponTypeLight,False,HitRes,HitRes)
+	MagicSwordEntry(WindSword,WeaponTypeAnima,False,HitDef,HitRes)
+	MagicSwordEntry(LightBrand,WeaponTypeLight,False,HitDef,HitRes)
 	MagicSwordEntry(Runesword,WeaponTypeDark,True,HitRes,HitRes)
+	MagicSwordEntry(0xC7,WeaponTypeAnima,False,HitDef,HitRes)
+	MagicSwordEntry(0xCA,WeaponTypeDark,False,HitDef,HitRes)
+	MagicSwordEntry(0xC5,WeaponTypeAnima,False,HitDef,HitRes)
+	MagicSwordEntry(0xC2,WeaponTypeDark,False,HitRes,HitRes)
+	MagicSwordEntry(0x85,WeaponTypeAnima,False,HitDef,HitRes)
 	BYTE 0 0 0 //terminator
 
 

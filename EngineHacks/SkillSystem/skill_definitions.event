@@ -627,7 +627,7 @@
 #define DevilsWhimID 183
 
 //Sword Range Up (over Down With Arch): +1 range to all swords.
-#define SwordRangeUpID 255
+#define SwordRangeUpID 251
 
 //Dragon Fang: 1.5x damage. (Skill% activation)
 //By Sme
@@ -635,7 +635,7 @@
 
 //Enrage: Inflict berserk status. (Skill% activation)
 //By Sme
-#define EnrageID 251
+#define EnrageID 255
 
 //Flare: Halve enemy resistance. (Skill% activation)
 //By Sme

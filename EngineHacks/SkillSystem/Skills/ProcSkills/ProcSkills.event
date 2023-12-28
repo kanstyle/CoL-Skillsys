@@ -119,11 +119,6 @@ WORD CounterID
 WORD CounterMagicID
 WORD BaneID
 
-DownWithArch: //lethality if the enemies name starts with "Arch"
-#incbin "DownWithArch/proc_downwitharch.dmp"
-POIN SkillTester
-WORD DownWithArchID
-
 Proc_BlackMagic:
 #incbin "BlackMagic/proc_blackmagic.dmp"
 POIN SkillTester
